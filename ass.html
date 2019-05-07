@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebTunings</title>
+    <link href="ass.css" rel="stylesheet">
+    <script src="ass.js"></script>
+    <style type="text/css">
+        button{
+            width:100px !important; 
+            height:30px !important;
+            font-weight: bold;
+            font-size:15px;
+        }
+    </style>
+</head>
+
+<body>
+<canvas id="canvas" width="600" height="600"></canvas>
+
+<div id="controls">
+        <button id="clear" onclick="clearCanvas()">Clear</button><br><br>
+
+    <p><label>Fill: <input id="fillBox" type="checkbox" checked="checked"></label></p>
+
+<div class="choosecolor">
+        <p><label>Choose Fill Color: <input id="choosecolor" type="color" value="#24B0D5"></label></p>    
+</div>
+
+<div class="choosecolor2">
+        <p><label>Choose Storke Color: <input id="choosecolor2" type="color"></label></p>    
+</div>
+
+<div class="backgroundcolor">
+        <p><label>Choose BackGround Color: <input id="backgroundcolor" type="color" value="#ffffFF"></label></p>    
+</div>
+
+<div class="linewidth">
+        <p><label>Line Width: <input id="linewidth" type="range" step="1" min="1" max="200" value="5"></label></p>    
+</div>
+
+    <div class="lightBorder">
+        <p><input type="radio" name="shape" value="line" checked="checked">Line</p>
+        <p><input type="radio" name="shape" value="circle">Circle</p>
+        <p><input type="radio" name="shape" value="polygon">Polygon</p>
+        <p><input type="radio" name="shape" value="square">Square</p>
+        <p><input type="radio" name="shape" value="triangle">Triangle</p>
+
+    </div>
+</div>
+
+</body>
+</html>
