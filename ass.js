@@ -14,6 +14,7 @@ function getCanvasCoordinates(event) {
 
 /*function takeSnapshot() {
     snapshot = context.getImageData(0, 0, canvas.width, canvas.height);
+    // test comment
 }
 
 function restoreSnapshot() {
